@@ -1,0 +1,90 @@
+footer{
+    background-color: grey;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h4 {
+    font-family: 'Gruppo', cursive;
+}
+
+.hero {
+    background: url(../Imagenes/Jesus.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color: black;
+}
+
+.lista-ministerio {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-ministerio li {
+    margin: 4px 0;
+}
+
+.lista-ministerio li a {
+    background-color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: gray;
+    transition: 5s;
+    display: block;
+}
+
+.lista-ministerio li a:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.lista-ministerio li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-ministerio li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.testimonios{
+    background-color: #dadada; 
+    padding-bottom: 4rem !important; 
+ }
+ 
+ .testimonio {
+     text-align: center;
+     padding: 50px 20px;
+ }
+ 
+ 
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+     background-image: none;
+ }
+ 
+ .carousel-control-prev-icon:after,
+ .carousel-control-next-icon:after {
+     font-family: "FontAwesome";
+     font-size: 30px;
+     color: #000;
+ }
+ 
+ .carousel-indicators li {
+     background-color: #000;
+ }
+
+ .staff{
+     background: cadetblue;
+ }
